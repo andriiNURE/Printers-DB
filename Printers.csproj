@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Computer.cs~RF1275672.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SshNet.Security.Cryptography">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\SshNet.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Ubiety.Dns.Core">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net">
+      <HintPath>..\..\..\..\Programms\MySQL Connector\Assemblies\v4.5.2\Zstandard.Net.dll</HintPath>
+    </Reference>
+	  <PackageReference Include="System.Security.Permissions" Version="5.0.0" />
+	  <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+	  <PackageReference Include="System.Management" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
